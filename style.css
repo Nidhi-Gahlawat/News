@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+.navbar img{
+    height: 70px;
+    width: 120px;
+    margin: auto 30px;
+}
+.nav-link{
+    margin-left: 10px;
+}
+.navbar{
+    font-size: larger;
+    font-weight: bold;
+}
+.i1{
+    border-left: 5px groove brown;
+}
+.i2{
+    border-right: 5px groove brown;
+}
+
+
+.card{
+    background-color: rgb(248, 243, 221);
+    min-height: 100px;
+    color: black;
+    font-weight:400;border: 1px solid rgb(220, 186, 252);
+    font-size: large;
+    margin:15px auto;
+box-shadow: 5px 7px rgb(218, 216, 216);
+position: relative;
+}
+.card-body{
+    background-color: rgba(253, 253, 239, 0.993);
+}
+.card-img-top{
+    height: 170px;
+    width: 230px;
+    justify-content: center;float: left;
+    margin: 0 10px 0 0;
+}
+.txt{
+    position: relative;
+    padding: 20px;
+    top: 50px;
+}
+
+.btn{
+    
+    font-weight:500;
+    font-size: 24px;
+}
+.img{
+    height: 260px;margin-top: 10px;
+}
+.logo{
+    position: absolute;
+    height: 260px;
+    width: 42%; top: 230px;
+    margin-left: 29%;
+}
+.strip{
+    background: #333232;  /* fallback for old browsers */
+    height: 55px; 
+    text-align: center;
+margin-bottom: 50px;
+margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+footer{
+    background-color: black;
+    color: white;
+    height: 300px;    
+    justify-content: center;
+position: relative;
+margin-top: 80px;
+  }
+  .social{
+    position: absolute;
+    top: 40%;
+  }
+  .social a{
+    margin-right: 10px;
+  }
+ 
+
+  @media only screen and (max-width:550px){
+      .img{
+          height: 150px;
+      }
+      .logo{
+          height: 130px;
+        
+          top: 185px;
+          width: 46%;
+          margin-left: 27%;
+      }
+
+    
+    
+  }
+  
+  @media only screen and (max-width:900px){
+    .img{
+        height: 190px;
+    }
+    .logo{
+        height: 140px;
+        top: 225px;
+        width: 44%;
+        display: block;
+        margin-left: 26%;
+    }      .card-img-top{
+        display: none;
+    }
+    .txt{
+        position: relative;
+        padding: 20px;
+        top: 0px;
+    }
+
+
+}
+@media only screen and (max-width:350px){
+    .img{
+        height: 100px;
+    }
+    .logo{
+        height: 80px;
+      
+        top: 170px;
+        width: 46%;
+        margin-left: 27%;
+    }
+    
+}
